@@ -1,0 +1,32 @@
+#homes{
+	background-color: #333;
+	            color: white;
+	            padding: 10px 0;
+	            text-align: center;
+}
+.packages-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .packages-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: calc(33.333% - 20px);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .packages-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .packages-item h3 {
+            color: #333;
+            margin: 10px 0;
+        }
+        .packages-item p {
+            color: #666;
+        }

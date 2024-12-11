@@ -1,0 +1,41 @@
+.yongzhou{
+	font-size: 216px;
+	text-align: center;
+	height: 600px;
+	position: relative;
+}
+
+.yong{
+	left: 500px;
+	position: absolute;
+	margin-top: 120px;
+}
+
+.zhou{
+	right: 480px;
+	position: absolute;
+	margin-top: 120px;
+}
+
+.tu{
+	background-color: #00000070;
+	color: white;
+	padding: 10px 0;
+	display: flex;
+	line-height: 100%;
+}
+
+.tu-left{
+	float: left;
+	padding-left: 220px;
+}
+
+.tu-right{
+	float: right;
+	padding-left: 110px;
+	padding-top: 0;
+}
+
+a{
+	color: beige;
+}

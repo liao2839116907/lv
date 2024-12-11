@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>永旅</title>
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/1.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="">首页</a></li>
+					<li><a href="./guanyuyongzhou.html">关于永州</a></li>
+					<li><a href="./taocan.html">旅游套餐</a></li>
+					<li><a href="#">旅游景点</a></li>
+					<li><a href="#">旅游攻略</a></li>
+					<li><a href="#">旅游服务</a></li>
+					<li><a href="#">新闻动态</a></li>
+					<li><a href="#">游客互动</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div class="banner">
+			<ul id="imglist">
+				<li><img src="./img/lunbo2.jpg" alt="" /></li>
+				<li><img src="./img/lunbo1.jpg" alt="" /></li>
+				<li><img src="./img/lunbo3.jpg" alt="" /></li>
+				<li><img src="./img/lunbo2.jpg" alt="" /></li>
+			</ul>
+			<ul  id="icolist">
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			</ul>
+			<div class="prev">❮</div>
+			<div class="next">❯</div>
+		</div>
+		
+		<!-- <div class="carousel">
+		        <div class="carousel-images">
+		            <img src="./img/lunbo2.jpg" alt="Image 1" class="active" width="1000px" height="460px">
+		            <img src="./img/lunbo1.jpg" alt="Image 2" width="1000px" height="460px">
+		            <img src="./img/lunbo3.jpg" alt="Image 3" width="1000px" height="460px">
+		        </div>
+		        <button class="prev">❮</button>
+		        <button class="next">❯</button>
+				<div class="btnlist">
+					<span class="active1"></span>
+					<span></span>
+					<span></span>
+				</div>
+		    </div> -->
+		    <script src="./js/gu.js"></script>
+
+		<!-- <section class="carousel">
+			<div class="carousel-item">
+				<img src="./img/lunbo2.jpg" class="carousel-item-shou" width="1000px" height="460px">
+				<img src="./img/lunbo1.jpg" width="1000px" height="460px">
+				<img src="./img/lunbo3.jpg" width="1000px" height="460px">
+			</div>
+			<div class="carousel-left">&lt;</div>
+			<div class="carousel-right">&gt;</div> -->
+		<!-- </section>
+		<script>
+			window.onload = function() {
+				let imglist = document.querySelectorAll('.imglist>div')
+				let carousel - left = document.querySelector('.carousel-left')
+				let carousel - right = document.querySelector('.carousel-right')
+				let carousel - zhiding = document.querySelectorAll('.carousel-zhiding>ul>li')
+				let index = 0;
+				let time;
+				autoPlay();
+
+				function autoPlay() {
+					time = setInterval(() => {
+						for (let i = 0; i < 3; i++) {
+							imglist[i].classList.remove('caroule-item-shou');
+							carousel - zhiding[i].classList.remove('che');
+						}
+						index++
+						imglist[index].classList.add('caroule-item-shou')
+						carousel - zhiding[index].classList.add('che')
+					}, 2000)
+				}
+			}
+		</script> -->
+
+		<section class="packages">
+			<h2>热门旅游套餐</h2>
+			<div class="package">
+				<img src="./img/1.png" alt="套餐1">
+				<h3>永州全套行程</h3>
+				<p>简介：这是第一个热门旅游套餐，包括各种精彩活动和景点。</p>
+				<a href="./taocan.html">了解更多</a>
+			</div>
+			<div class="package">
+				<img src="./img/taocan2.jpg" alt="套餐2">
+				<h3>套餐名称2</h3>
+				<p>简介：这是第二个热门旅游套餐，适合家庭和朋友一起旅行。</p>
+				<a href="./taocan.html">了解更多</a>
+			</div>
+			<div class="package">
+				<img src="./img/taocan3.jpg" alt="套餐3">
+				<h3>套餐名称3</h3>
+				<p>简介：这是第三个热门旅游套餐，提供独特的文化和美食体验。</p>
+				<a href="./taocan.html">了解更多</a>
+			</div>
+		</section>
+		
+		<div style="width: 100%; height: 150px;"></div>
+
+		<footer>
+			<p>© 2024 "永旅"旅游网站. 版权所有.</p>
+		</footer>
+	</body>
+</html>
